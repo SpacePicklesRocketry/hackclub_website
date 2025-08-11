@@ -4,7 +4,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/hackclub_website',
+  base: '/hackclub_website/',
   plugins: [react()],
   server: {
     allowedHosts: true
